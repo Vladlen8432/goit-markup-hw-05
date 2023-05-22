@@ -111,23 +111,17 @@ img {
   color: var(--color-hover);
 }
 
-.menu-link::after {
+.link::after {
   content: '';
-  display: inline-block;
+  display: block;
   position: absolute;
   width: 100%;
   height: 4px;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   background-color: var(--color-hover);
   border-radius: 2px;
-  visibility: hidden;
   transition: var(--transition-hover);
-}
-
-.menu-link:hover::after,
-.menu-link:focus::after {
-  visibility: visible;
 }
 
 .contacts-address {
