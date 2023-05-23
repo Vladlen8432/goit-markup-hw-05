@@ -404,7 +404,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--customers-icon);
-  transition: border-color var(--transition-hover), color var(--transition-hover);
+  transition: border-color var(--transition-hover),
+    color var(--transition-hover);
 }
 
 .link-customers:hover,
@@ -505,7 +506,8 @@ img {
   background: rgba(46, 47, 66, 0.4);
   margin: auto;
   transition: var(--modal);
-  transition: opacity var(--transition-hover), visibility var(--transition-hover);
+  transition: opacity var(--transition-hover),
+    visibility var(--transition-hover);
 }
 
 .modal {
@@ -535,7 +537,8 @@ img {
   height: 24px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  transition:  background-color var(--transition-hover), border var(--transition-hover);
+  transition: background-color var(--transition-hover),
+    border var(--transition-hover);
 }
 
 .modal-close-button:hover,
@@ -554,7 +557,6 @@ img {
 .modal-close-icon {
   transition: fill var(--transition-hover);
 }
-
 
 /*====================PORTFOLIO====================*/
 .sec-port {
@@ -615,6 +617,7 @@ img {
 
 .portfoliio-link {
   display: block;
+  transition: box-shadow var(--transition-hover);
 }
 
 .portfoliio-link:hover,
@@ -671,4 +674,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-fonts);
+  transition: transform var(--transition-hover);
 }
