@@ -111,7 +111,11 @@ img {
   color: var(--color-hover);
 }
 
-.link::after {
+.menu-link-after {
+  color: var(--color-hover);
+}
+
+.menu-link-after::after {
   content: '';
   display: block;
   position: absolute;
