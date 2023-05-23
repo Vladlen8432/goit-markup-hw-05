@@ -645,7 +645,7 @@ img {
   letter-spacing: 0.02em;
   overflow: auto;
   transform: translateY(100%);
-  transition: var(--transition-hover);
+  transition: transform var(--transition-hover);
 }
 
 .portfoliio-link:hover .employees-list-img-wrapper .overlay,
@@ -674,5 +674,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-fonts);
-  transition: transform var(--transition-hover);
 }
