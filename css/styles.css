@@ -103,7 +103,7 @@ img {
   color: var(--color-link-background);
   padding: 24px 0;
   display: block;
-  transition: var(--transition-hover);
+  transition: color var(--transition-hover);
 }
 
 .menu-link:hover,
@@ -125,7 +125,7 @@ img {
   bottom: -1px;
   background-color: var(--color-hover);
   border-radius: 2px;
-  transition: var(--transition-hover);
+  transition: color var(--transition-hover);
 }
 
 .contacts-address {
@@ -144,7 +144,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-fonts);
-  transition: var(--transition-hover);
+  transition: color var(--transition-hover);
 }
 
 .contact-link:hover,
